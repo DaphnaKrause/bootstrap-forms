@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Cupcake Quiz </title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container" id="quizquestions">
+    <div class="row">
+      <div class="col-sm-10">
+
+  <h1>Cupcake Quiz: With Bootstrap 4 form styles</h1>
+
+  <p>Cupcakes are a sweet treat made for an individual person. The earliest cupcake recorded was during the year 1796, in a cookbook. The term cupcake was created in 1828 by Eliza Leslie. Now that you know little about cupcakes, take the quiz below to see just how much of a sweet treat expert you really are.</p>
+
+  <p><a href="https://en.wikipedia.org/wiki/Cupcake" target="_blank">Source: Wikipedia, the free encyclopedia page on cupcakes </a></p>
+
+  <form>
+    <div class="form-group">
+      <label class="form-control-label">1. Which of the following is not a famous cupcake bakery?(choose one)</label>
+        <div class="form-check"><label><input class="form-check-input" type="radio" name="famouscupcakebakery" value="Magnolia Bakery"> Magnolia Bakery</label></div>
+        <div class="form-check"><label><input class="form-check-input" type="radio" name="famouscupcakebakery" value="Georgetown Cupcakes"> Georgetown Cupcakes</label></div>
+        <div class="form-check"><label><input class="form-check-input" type="radio" name="famouscupcakebakery" value="Sprinkles Cupcakes"> Sprinkles Cupcakes</label></div>
+        <div class="form-check"><label><input class="form-check-input" type="radio" name="famouscupcakebakery" value="Downtown Cupcakes"> Downtown Cupcakes</label></div>
+    </div>
+
+
+  <div class="form-group">
+      <label class="form-control-label">2. Select all the shapes a cupcake can be?(check all that apply)</label><br>
+          <div class="form-check"><label><input class="form-check-input" type="checkbox" name="shapes" value="Round"> Round</label></div>
+          <div class="form-check"><label><input class="form-check-input" type="checkbox" name="shapes" value="Square"> Square</label></div>
+          <div class="form-check"><label><input class="form-check-input" type="checkbox" name="shapes" value="Triangle"> Triangle</label></div>
+          <div class="form-check"><label><input class="form-check-input" type="checkbox" name="shapes" value="Rectangle"> Rectangle</label></div>
+      </div>
+
+
+    <div class="form-group">
+      <label class="form-control-label" for="originallybaked">3. What were cupcakes originally baked in?</label>
+      <select class="form-control" id="originallybaked">
+        <option>choose one</option>
+        <option value="steelcups">Steel cups</option>
+        <option value="bakingsheets">Baking sheets</option>
+        <option value="heavypotterycups">Heavy pottery cups</option>
+        <option value="lightclaymolds">Light Clay molds</option>
+        <option value="heavyclaymolds">Heavy Clay molds</option>
+        <option value="lightbakingsheets">Light Baking sheets</option>
+      </select>
+    </div>
+
+<div class="form-group">
+    <label class="form-control-label">4. What is the British Name for Cupcakes?</label>
+      <input class="form-control" type="text" name="britishcupcake" maxlength="50">
+</div>
+
+<div class="form-group">
+<label class="form-control-label">5. Where were cupcakes invented?</label>
+    <textarea class="form-control" name="invented" rows="5"></textarea>
+</div>
+
+<div class="form-group">
+<label class="form-control-label">6. What are the main ingredients of Cupcakes?</label>
+  <textarea class="form-control" name="ingredients" rows="5"></textarea>
+</div>
+
+
+<!-- Keep this at the end of the quiz -->
+<div class="form-group">
+<input class="btn btn-primary" type="submit" value="Submit Answers">
+<input class="btn btn-secondary" type="reset" value="Start Over">
+</div>
+
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Do not change this -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
